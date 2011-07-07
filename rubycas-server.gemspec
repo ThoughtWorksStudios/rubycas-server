@@ -36,9 +36,9 @@ to build the LOCALE_LC files.
 
   s.add_dependency("activerecord", "~> 3.0.0")
   s.add_dependency("activesupport", "~> 3.0.0")
-  s.add_dependency("sinatra", "~> 1.0")
-  s.add_dependency("gettext", "~> 2.1.0")
-  s.add_dependency("crypt-isaac", "~> 0.9.1")
+  # s.add_dependency("sinatra", "~> 1.0")
+  # s.add_dependency("gettext", "~> 2.1.0")
+  # s.add_dependency("crypt-isaac", "~> 0.9.1")
 
   s.add_development_dependency("rack-test")
   s.add_development_dependency("capybara")
