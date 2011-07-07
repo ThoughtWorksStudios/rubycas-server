@@ -7,6 +7,7 @@ require File.dirname(__FILE__) + '/authlogic_crypto_providers/bcrypt'
 require File.dirname(__FILE__) + '/authlogic_crypto_providers/md5'
 require File.dirname(__FILE__) + '/authlogic_crypto_providers/sha1'
 require File.dirname(__FILE__) + '/authlogic_crypto_providers/sha512'
+require File.dirname(__FILE__) + '/authlogic_crypto_providers/sha256'
 
 begin
   require 'active_record'
